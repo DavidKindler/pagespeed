@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Check Page Speed",
+  "description": "This extension will submit URL to GTmetrix to analyze page speed",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "gext1.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
